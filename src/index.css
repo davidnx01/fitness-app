@@ -43,6 +43,7 @@ section {
 h1 {
   color: white;
   font-size: 4rem;
+  line-height: .95em;
 }
 
 h2 {
@@ -69,6 +70,7 @@ p {
   font-size: 1rem;
   line-height: 1.7em;
   color: #D8D8D8;
+  font-weight: 300;
 }
 
 p .inline {
