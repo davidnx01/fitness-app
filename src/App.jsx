@@ -1,10 +1,12 @@
 import { Hero, Sponsors, Program, Services, Testimonial, MainCTA, Contact, Footer } from "../common/Containers/index";
+import "./App.css";
 
 function App() {
 
   return (
     <>
-      <div>
+    <div id="wrapper">
+      <div className="header">
         <Hero />
       </div>
         <Sponsors />
@@ -14,6 +16,7 @@ function App() {
         <MainCTA />
         <Contact />
         <Footer />
+      </div>
     </>
   )
 }

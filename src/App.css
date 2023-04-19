@@ -1,0 +1,9 @@
+.header {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    background: linear-gradient(180deg, rgba(14, 14, 14, 0.4) 0%, rgba(14, 14, 14, 0.2) 83.85%, #0E0E0E 95.41%), url(assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
