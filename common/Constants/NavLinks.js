@@ -1,31 +1,18 @@
 export const navLinks = [
     {
         title: "Program",
-        link: "#program"
+        id: "#program"
     },
     {
         title: "Služby",
-        link: "#services"
+        id: "#services"
     },
     {
         title: "Recenzie",
-        link: "#testimonial"
+        id: "#testimonial"
     },
     {
         title: "Kontakt",
-        link: "#contact"
+        id: "#contact"
     },
 ]
-
-/*              
-<ul>
-    {navLinks.map((item) => (
-        <li key={item.index}>
-        <a href={item.id}>
-            {item.link}
-        </a>
-    </li>
-    ))}
-</ul>
-
-*/

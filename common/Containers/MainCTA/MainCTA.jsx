@@ -3,7 +3,9 @@ import "./mainCTA.css"
 
 const MainCTA = () => {
   return (
-    <div>MainCTA</div>
+    <>
+
+    </>
   )
 }
 
