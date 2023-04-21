@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./hero.css";
 import Logo from '../../Components/Logo/Logo';
 import { navLinks } from "../../Constants/NavLinks" ;
 import Socials from '../../Components/Socials/Socials';
 import MainCTA from '../MainCTA/MainCTA';
 import CTA from '../../Components/CTA/CTA';
+import { RiCloseLine, RiMenu3Line } from 'react-icons/ri';
+import Avatar from '../../Components/Avatar/Avatar';
 
 const Hero = () => {
+
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   const Navigation = () => {
     return (
@@ -33,11 +37,25 @@ const Hero = () => {
 
           <div className='nav_right-side'>
             <Navigation />
-
             <button className='nav_right-side__button'>
               <a href="https://www.google.sk">CHCEM SA PRIDAŤ</a>
             </button>
           </div>
+
+
+          <div className="nav_right-mobile">
+            {toggleMenu
+              ? <RiCloseLine className='nav_icon' color='white' size={32} onClick={() => setToggleMenu(false)} />
+              : <RiMenu3Line className='nav_icon' color='white' size={26} onClick={() => setToggleMenu(true)} />
+            }
+
+            {toggleMenu && (
+              <div className="mobile_navigation">
+                <Navigation />
+              </div>
+            )}
+          </div> 
+          
         </nav>
 
         <div className="hero_heading">
@@ -63,11 +81,7 @@ const Hero = () => {
           <div className="hero__bottom-row_right">
             <div className="hero_users">
               <div className="client_avatars">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <Avatar />
               </div>
               <span>550+</span>
               <p>Spokojných klientov</p>

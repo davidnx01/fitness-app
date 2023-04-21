@@ -22,3 +22,18 @@
     letter-spacing: 3.4px;
     font-weight: 300;
 }
+
+@media only screen and (max-width: 970px){
+    .logo_typography p span {
+        letter-spacing: 1.2px;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .logo_typography p span {
+        letter-spacing: 0.2px;
+    }
+    .logo img {
+        height: 35px;
+    }
+}

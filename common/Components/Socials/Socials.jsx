@@ -7,15 +7,15 @@ const Socials = () => {
   return (
     <>
         <a href="www.facebook.com" className='icon_circle'>
-            <FaFacebook color='black' size={24} />
+            <FaFacebook color='black' size={20} />
         </a>
 
         <a href="www.twitter.com" className='icon_circle'>
-            <FaTwitter color='black' size={24} />
+            <FaTwitter color='black' size={20} />
         </a>
 
         <a href="www.instagram.com" className='icon_circle'>
-            <RiInstagramFill color='black' size={26} />
+            <RiInstagramFill color='black' size={22} />
         </a>
     </>
   )

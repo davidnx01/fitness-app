@@ -84,3 +84,15 @@ p .below {
   max-width: 575px;
   width: 100%;
 }
+
+@media only screen and (max-width: 970px) {
+      html {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+      html{
+        font-size: 14px !important;
+    }
+}
