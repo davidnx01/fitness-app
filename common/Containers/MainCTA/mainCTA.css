@@ -1,0 +1,17 @@
+#mainCta {
+    width: 100%;
+    padding-block: 5rem;
+    background: url("/src/assets/CTAbackground.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 500px) {
+    .CTA_wrapper {
+        flex-wrap: wrap;
+    }
+    .CTA_right-side {
+        width: 197px;
+    }
+}
