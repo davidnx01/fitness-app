@@ -1,16 +1,16 @@
 .testimonial_user-tab {
     padding: 1.125rem 1.5rem;
     background: var(--tab-gradient);
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     transition: 0.125s ease-in-out;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.23);
+    width: 100%;
 }
 
 .testimonial_user-tab:hover {
-    transform: translate(25px);
+    transform: translate(15px);
     box-shadow: 0px 4px 18px rgba(10, 10, 10, 0.23);
 }
 
@@ -46,4 +46,27 @@
 
 .active {
     border-left: 3px solid var(--primary-color);
+}
+
+@media only screen and (max-width: 750px) {
+    .testimonial_user-info {
+        display: none;
+    }
+    .active {
+        border-left: 0;
+        border-bottom: 2px solid var(--primary-color);
+    }
+    .testimonial_user-tab:hover {
+        transform: translate(0px, -8px);
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .testimonial_user-avatar {
+        height: 48px;
+        width: 48px;
+    }
+    .testimonial_user-tab {
+        padding: 0.75rem 1rem;
+    }
 }

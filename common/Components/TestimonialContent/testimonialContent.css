@@ -1,0 +1,35 @@
+.testimonial-content_wrap {
+    width: 100%;
+    background: var(--testimonial-content-gradient);
+    border-left: 3px solid var(--primary-color);
+    padding: 1.5rem;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.testimonial-content__user-info h5 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.testimonial-content__user-info p {
+    font-size: .725rem;
+    margin-top: -0.125rem;
+    margin-bottom: .725rem;
+}
+
+.testimonial-content__user-review p {
+    max-width: 735px;
+    margin-top: 2rem;
+    line-height: 2em;
+}
+
+.testimonial-content__user-review p:nth-child(2) {
+    margin-top: 1.125rem;
+}
+
+@media only screen and (max-width: 750px) {
+    .testimonial-content_wrap {
+        border-left: 2px solid var(--primary-color);
+    }
+}

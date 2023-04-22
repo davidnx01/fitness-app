@@ -7,7 +7,7 @@ import TestimonialContent from '../../Components/TestimonialContent/TestimonialC
 
 const Testimonial = () => {
 
-  const [testimonialToggle, setTestimonialToggle] = useState(1);
+  const [testimonialToggle, setTestimonialToggle] = useState(0);
 
   return (
     <>
@@ -26,30 +26,52 @@ const Testimonial = () => {
               photo={User1}
               name="Noemi Spodná"
               position="Predsedkyňa záhradných hmôt"
-              className="testimonial_user-tab active"
+              className=
+              {testimonialToggle === 0 
+                ? "testimonial_user-tab active"
+                : "testimonial_user-tab"
+              }
+              onClick = {() => setTestimonialToggle(0)}
             />
             <TestimonialUser 
               photo={User2}
               name="Štefánia Mírska"
               position="Poslankyňa"
-              className="testimonial_user-tab"
+              className=
+                {testimonialToggle === 1 
+                  ? "testimonial_user-tab active"
+                  : "testimonial_user-tab"
+                }
+              onClick = {() => setTestimonialToggle(1)}
             />
             <TestimonialUser 
               photo={User3}
               name="Jano Levočar"
               position="Vedúci výroby bielych čokolád"
-              className="testimonial_user-tab"
+              className=
+              {testimonialToggle === 2 
+                ? "testimonial_user-tab active"
+                : "testimonial_user-tab"
+              }
+              onClick = {() => setTestimonialToggle(2)}
             />
             <TestimonialUser 
               photo={User4}
               name="Lena Haluzová"
               position="Miestna podávačka trhačiek"
-              className="testimonial_user-tab"
+              className=
+              {testimonialToggle === 3 
+                ? "testimonial_user-tab active"
+                : "testimonial_user-tab"
+              }
+              onClick = {() => setTestimonialToggle(3)}
             />
           </div>
 
           <div className="testimonial_right-side">
-            <TestimonialContent />
+            <TestimonialContent 
+              toggleValue={testimonialToggle}
+            />
           </div>
         </div>
 

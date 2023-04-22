@@ -4,7 +4,7 @@ import "./testimonialUser.css"
 const TestimonialUser = ( props ) => {
   return (
     <>
-    <div className={props.className}>
+    <div className={props.className} onClick={props.onClick}>
         <div className="testimonial_wrap">
           <div className="testimonial_user-avatar">
             <img src={props.photo} alt="User Photo" />
