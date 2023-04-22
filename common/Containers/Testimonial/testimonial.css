@@ -1,0 +1,25 @@
+.testimonial_heading .headings h2 {
+    width: 480px;
+}
+
+.testimonial_heading .headings p {
+    max-width: 420px;
+}
+
+.testimonial_main-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.testimonial_left-side {
+    flex-basis: 44%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.125rem;
+    flex-direction: column;
+}
