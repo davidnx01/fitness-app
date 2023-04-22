@@ -41,22 +41,22 @@ const Contact = () => {
                 </div>
               </div>
             </div>
+          </div>
 
-            <div className="contact_right-side">
-              <div className="contact_right-side__photo">
-                <img 
-                  src="/src/assets/contactRight.jpg" 
-                  alt="Contact Photo"
-                  title='Contact Photo' 
-                />
-                <TopRightIcon />
-                <div className="contact_right-side__description">
-                  <span>LOKÁCIA</span>
-                  <p>
-                    HLAVNÁ 54/10
-                    BRATISLAVA 1, 811 02
-                  </p>
-                </div>
+          <div className="contact_right-side">
+            <div className="contact_right-side__photo">
+              <img 
+                src="/src/assets/contactRight.jpg" 
+                alt="Contact Photo"
+                title='Contact Photo' 
+              />
+              <TopRightIcon />
+              <div className="contact_right-side__description">
+                <span>LOKÁCIA</span>
+                <p>
+                  HLAVNÁ 54/10<br></br>
+                  BRATISLAVA 1, 811 02
+                </p>
               </div>
             </div>
           </div>

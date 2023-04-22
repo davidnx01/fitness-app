@@ -1,0 +1,82 @@
+footer {
+    background: #111111;
+    padding-block: 2.75rem;
+}
+
+.footer_wrapper {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.newsletter_text {
+    font-size: .725rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    max-width: 250px;
+}
+
+form {
+    max-width: 450px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 46px;
+}
+
+form div {
+    max-width: 270px;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+form div input {
+    height: 100%;
+    width: 100%;
+    padding-left: 2.5rem;
+    border: none;
+    border-bottom: 2px solid var(--primary-color);
+    outline: none;
+    font-size: .625rem;
+    color: #d9d9d9;
+    background: linear-gradient(180deg, rgba(27, 27, 27, 0.5) 0%, rgba(14, 14, 14, 0.5) 100%);
+}
+
+form div input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.envelope_icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translate(0, -50%);
+    color: var(--primary-color);
+}
+
+.submit_button {
+    height: 100%;
+    color: black;
+    font-size: .625rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    background-color: var(--primary-color);
+    padding-inline: 1.25rem;
+    border: 2px solid var(--primary-color);
+    outline: none;
+    transition: 0.12s ease-in-out;
+    cursor: pointer;
+}
+
+.submit_button:hover {
+    color: var(--primary-color);
+    background: transparent;
+}
+
+.copyright {
+    color: rgba(217, 217, 217, 0.5);
+}
