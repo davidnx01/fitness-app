@@ -3,7 +3,6 @@ import "./hero.css";
 import Logo from '../../Components/Logo/Logo';
 import { navLinks } from "../../Constants/NavLinks" ;
 import Socials from '../../Components/Socials/Socials';
-import MainCTA from '../MainCTA/MainCTA';
 import CTA from '../../Components/CTA/CTA';
 import { RiCloseLine, RiMenu3Line } from 'react-icons/ri';
 import Avatar from '../../Components/Avatar/Avatar';
@@ -42,7 +41,6 @@ const Hero = () => {
             </button>
           </div>
 
-
           <div className="nav_right-mobile">
             {toggleMenu
               ? <RiCloseLine className='nav_icon' color='white' size={32} onClick={() => setToggleMenu(false)} />
@@ -55,7 +53,6 @@ const Hero = () => {
               </div>
             )}
           </div> 
-          
         </nav>
 
         <div className="hero_heading">
@@ -88,7 +85,6 @@ const Hero = () => {
             </div>
           </div>
         </div>
-
       </div>
     </>
   )

@@ -1,9 +1,12 @@
-import React from 'react'
-import "./topLeftIcon.css"
+import React from 'react';
+import "./topLeftIcon.css";
+import { MdOutlineSportsGymnastics } from "react-icons/md";
 
 const TopLeftIcon = () => {
   return (
-    <div>TopLeftIcon</div>
+    <div className='top-left__icon'>
+      <MdOutlineSportsGymnastics size={28} />
+    </div>
   )
 }
 

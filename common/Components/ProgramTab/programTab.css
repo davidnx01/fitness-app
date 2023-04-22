@@ -1,0 +1,59 @@
+.program_main__right-side_tab {
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.program_tab {
+    position: relative;
+    flex-basis: 33%;
+    height: 550px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.25));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.program_tab:first-child {
+    background-image: url(/src/assets/silovy_trening_bg.jpg);
+}
+
+.program_tab:nth-child(2) {
+    background-image: url(/src/assets/kalistenika_bg.jpg);
+}
+
+.program_tab:last-child {
+    background-image: url(/src/assets/yoga_bg.jpg);
+}
+
+.rotate {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    bottom: 125px;
+}
+  
+.rotate span {
+    display: inline-block;
+    width: 250px;
+}
+
+@media only screen and (max-width: 750px) {
+    .program_tab {
+        width: 100%;
+        flex-basis: 100%;
+        height: 500px;
+    }
+
+    .rotate {
+        position: static;
+        left: 0;
+        transform: translate(0, 0) rotate(0deg);
+        text-align: right;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 2.5rem;
+    }
+}
