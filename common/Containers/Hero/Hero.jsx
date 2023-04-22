@@ -29,7 +29,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className='container'>
+      <div className='container' id='header'>
         <nav>
 
           <Logo />

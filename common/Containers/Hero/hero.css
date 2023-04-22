@@ -122,11 +122,11 @@ nav ul li a:hover {
     h1{
         font-size: 3.6rem !important;
     }
-    .CTA_wrapper {
+    #header .CTA_wrapper {
         flex-direction: column;
         gap: 1rem !important;
     }
-    .CTA_right-side, .CTA_right-side a {
+    #header .CTA_right-side, #header .CTA_right-side a {
         width: 100%;
     }
     .hero_heading p {
@@ -180,5 +180,17 @@ nav ul li a:hover {
     }
     .hero_heading {
         margin-top: 4rem;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    #header .CTA_left-side, #header .CTA_right-side {
+        height: 43px;
+    }
+    #header .CTA_left-side p {
+        padding-inline: 1.25rem;
+    }
+    #header .CTA_left-side a {
+        padding-inline: 2.5rem;
     }
 }
