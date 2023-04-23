@@ -4,7 +4,7 @@ import "./sponsors.css"
 const Sponsors = () => {
   return (
     <>
-      <section class="sponsors">
+      <section class="sponsors container">
         <div class="sponsors__logo">
           <img src="/src/assets/rebook.png" alt="Sponsor 1"/>
         </div>

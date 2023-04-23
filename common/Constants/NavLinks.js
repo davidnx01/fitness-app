@@ -16,3 +16,18 @@ export const navLinks = [
         id: "#contact"
     },
 ]
+
+export const categorieLinks = [
+    {
+        title: "Osobné údaje",
+        id: "#"
+    },
+    {
+        title: "Zmluvné podmienky",
+        id: "#"
+    },
+    {
+        title: "Kontakt",
+        id: "#"
+    },
+]
