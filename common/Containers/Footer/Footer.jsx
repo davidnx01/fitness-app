@@ -3,6 +3,7 @@ import "./footer.css";
 import Logo from '../../Components/Logo/Logo';
 import { BsFillEnvelopeOpenFill } from "react-icons/bs";
 import { categorieLinks, navLinks } from '../../Constants/NavLinks';
+import Socials from '../../Components/Socials/Socials';
 
 const Footer = () => {
   return (
@@ -35,7 +36,7 @@ const Footer = () => {
 
           <div className="footer_right-side">
             <div className="footer_right-side__about">
-              <h4>Moderná Posilovňa</h4>
+              <span>Moderná Posilovňa</span>
               <p>
                 Správne vybavenie posilovne je jedna z najdôležitejších 
                 vecí pre pohodlie a bezpečnosť našich klientov, 
@@ -75,8 +76,11 @@ const Footer = () => {
             <p className='copyright'>
               &copy; Copyright 2023, Dávid Roman
             </p>
-        </div>       
 
+            <div className="footer_socials">
+              <Socials />
+            </div>
+        </div>       
       </div>
     </footer>
   )

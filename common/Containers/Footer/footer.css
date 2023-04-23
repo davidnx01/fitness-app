@@ -70,6 +70,7 @@ form div input::placeholder {
     outline: none;
     transition: 0.12s ease-in-out;
     cursor: pointer;
+    border-top-right-radius: 15px;
 }
 
 .submit_button:hover {
@@ -79,4 +80,118 @@ form div input::placeholder {
 
 .copyright {
     color: rgba(217, 217, 217, 0.5);
+    font-size: .725rem;
+}
+
+footer span {
+    font-size: 1rem;
+}
+
+.footer_right-side {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    gap: 3.125rem;
+}
+
+.footer_right-side p, .footer_right-side ul {
+    margin-top: .725rem;
+    list-style-type: none;
+}
+
+.footer_right-side__about {
+    max-width: 325px;
+}
+
+.footer_right-side__about p {
+    font-size: .725rem;
+}
+
+.footer_right-side ul li {
+    margin-bottom: 0.375rem;
+    font-size: .725rem;
+}
+
+.footer_right-side ul li a {
+    text-decoration: none;
+    color: #d9d9d9;
+    opacity: .75;
+    transition: 0.15s ease-in-out;
+}
+
+.footer_right-side ul li a:hover {
+    opacity: 1;
+}
+
+
+.footer__bottom-part {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.footer_socials {
+    display: flex;
+    align-items: center;
+    gap: .375rem;
+}
+
+.footer_socials .icon_circle {
+    height: 40px;
+    width: 40px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .footer_wrapper {
+        flex-direction: column;
+    }
+    .footer_right-side {
+        margin-top: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    .submit_button {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    form {
+        height: 40px;
+        width: 100%;
+    }
+    .footer_right-side {
+        flex-direction: column;
+    }
+
+    .footer_right-side span {
+        font-size: 1.25rem;
+    }
+
+    .footer_right-side p, .footer_right-side ul li {
+        font-size: 1rem;
+    }
+    .newsletter_text {
+        font-size: 1rem;
+    }
+    .copyright {
+        font-size: 1rem;
+        order: 2;
+    }
+    .footer_socials {
+        order: 1;
+    }
+    .footer__bottom-part {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2.5rem;
+    }
+    form div input {
+        width: 100%;
+        font-size: .9rem;
+        padding-left: 3rem;
+    }
 }
