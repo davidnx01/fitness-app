@@ -20,7 +20,7 @@ const Program = () => {
       <div className="program_main-container flex-inline">
         <div className="program_main__left-side">
           <img 
-            src="/public/program_photo-left.jpg" 
+            src="/program_photo-left.jpg" 
             alt="Photography" 
           />
           <TopLeftIcon />

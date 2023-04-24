@@ -6,35 +6,35 @@ const Avatar = () => {
     <>
         <div className='avatar_icon'>
             <img 
-                src="/public/avatar1.jpg" 
+                src="/avatar1.jpg" 
                 alt="Client Profile Picture" 
                 title="Client Profile Picture"
             />
         </div>
         <div className='avatar_icon'>
             <img 
-                src="/public/avatar2.jpg" 
+                src="/avatar2.jpg" 
                 alt="Client Profile Picture" 
                 title="Client Profile Picture"
             />
         </div>
         <div className='avatar_icon'>
             <img 
-                src="/public/avatar3.jpg"  
+                src="/avatar3.jpg"  
                 alt="Client Profile Picture" 
                 title="Client Profile Picture"
             />
         </div>
         <div className='avatar_icon'>
             <img 
-                src="/public/avatar4.webp"  
+                src="/avatar4.webp"  
                 alt="Client Profile Picture" 
                 title="Client Profile Picture"
             />
         </div>
         <div className='avatar_icon'>
             <img 
-                src="/public/avatar5.jpg"  
+                src="/avatar5.jpg"  
                 alt="Client Profile Picture" 
                 title="Client Profile Picture"
             />
