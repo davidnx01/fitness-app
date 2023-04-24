@@ -18,7 +18,7 @@ const Contact = () => {
 
             <div className="contact_left-side__bottom">
               <img 
-                src="/src/assets/contactLeft.jpg" 
+                src="/contactLeft.jpg" 
                 alt="Photo"
                 title='Photo' 
               />
@@ -46,7 +46,7 @@ const Contact = () => {
           <div className="contact_right-side">
             <div className="contact_right-side__photo">
               <img 
-                src="/src/assets/contactRight.jpg" 
+                src="/contactRight.jpg" 
                 alt="Contact Photo"
                 title='Contact Photo' 
               />

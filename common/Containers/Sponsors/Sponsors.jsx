@@ -6,19 +6,19 @@ const Sponsors = () => {
     <>
       <section class="sponsors container">
         <div class="sponsors__logo">
-          <img src="/src/assets/rebook.png" alt="Sponsor 1"/>
+          <img src="/public/rebook.png" alt="Sponsor 1"/>
         </div>
         <div class="sponsors__logo">
-          <img src="/src/assets/puma.png" alt="Sponsor 2"/>
+          <img src="/public/puma.png" alt="Sponsor 2"/>
         </div>
         <div class="sponsors__logo">
-          <img src="/src/assets/nike.png" alt="Sponsor 3"/>
+          <img src="/public/nike.png" alt="Sponsor 3"/>
         </div>
         <div class="sponsors__logo">
-          <img src="/src/assets/adidas.png" alt="Sponsor 4"/>
+          <img src="/public/adidas.png" alt="Sponsor 4"/>
         </div>
         <div class="sponsors__logo">
-          <img src="/src/assets/jordan.png" alt="Sponsor 5"/>
+          <img src="/public/jordan.png" alt="Sponsor 5"/>
         </div>
       </section>
     </>
